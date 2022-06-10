@@ -53,7 +53,7 @@
 
       <div class="menu">
         <ul>
-          <li><a onclick="closeMenu()" href="#home">Início</a></li>
+          <li><a class="active" onclick="closeMenu()" href="#home">Início</a></li>
           <li><a onclick="closeMenu()" href="#services">Serviços</a></li>
           <li><a onclick="closeMenu()" href="#about">Sobre</a></li>
         </ul>
@@ -116,6 +116,7 @@
 
   <section id="home">
     <div class="wrapper">
+      <div class="col-a">
       <header>
         <h4>BOAS-VINDAS A DOCTORCARE 👋</h4>
         <h1>Assistência médica simplificada para todos</h1>
@@ -136,7 +137,12 @@
           Agende sua consulta
         </a>
 
-        <img src="/assets/Foto.png" alt="Mulher negra vestindo moletom verde e sorrindo" />
+      </div>
+    </div>
+
+      <div class="col-b">
+        <img src="/assets/Foto.png" alt="Mulher negra vestindo moletom verde e sorrindo" 
+        />
       </div>
 
       <div class="stats">
@@ -407,11 +413,11 @@
 
   <a id="backToTopButton" href="#home">
     <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-      <circle cx="20" cy="20" r="20" fill="#00856F"/>
-      <path d="M20 27V13" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-      <path d="M13 20L20 13L27 20" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-      </svg>
-      
+      <circle cx="20" cy="20" r="20" fill="#00856F" />
+      <path d="M20 27V13" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M13 20L20 13L27 20" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+    </svg>
+
   </a>
 
   <!-- ScrollReaveal Lib -->
